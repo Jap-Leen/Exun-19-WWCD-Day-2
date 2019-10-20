@@ -14,7 +14,7 @@ def nandgate(a, b):
 
 def orgate(a, b): 
 	if a == 1 or b == 1: 
-		return False
+		return True
 	else: 
 		return False
 def NOR(a, b): 
