@@ -10,7 +10,7 @@ def isVowel(c):
 
 def reverserVowel(string):
     j = 0
-    vowel = [0] * len(string)
+    vowel = ["0"] * len(string)
     string = list(string)
   
     for i in range(len(string)):
