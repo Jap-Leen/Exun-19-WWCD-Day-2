@@ -9,7 +9,8 @@ def spiralPrint(m, n, a) :
             print(a[k][i], end = " ")
         for i in range(k, m) : 
             print(a[i][n - 1], end = " ")   
-        if ( k < m) : 
+            n=n-1
+    if ( k < m) : 
               
             for i in range(n - 1, (l - 1), -1) : 
                 print(a[m - 1][i], end = " ") 
