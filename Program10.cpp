@@ -9,7 +9,7 @@ node* create_circular_queue(void){
     cout << "Enter number of elements";
     cin >> n;
     node* head = NULL, *tail= NULL;
-    while(n--){
+    while(n-1==0){
         int a;
         cout << "Enter element";
         cin >> a;
