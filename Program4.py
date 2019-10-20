@@ -1,7 +1,7 @@
 # Binary to Decimal conversion
 # Complexity: H
 
-def function n: 
+def function(n): 
     int temp = n,value = 0, c = 1 
     while (temp): 
         int r = temp % 10  
