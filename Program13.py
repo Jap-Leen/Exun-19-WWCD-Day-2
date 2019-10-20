@@ -6,7 +6,8 @@ def isVowel(c):
         c == 'E' or c == 'i' or c == 'I' or 
         c == 'o' or c == 'O' or c == 'u' or c == 'U'):
         return True
-    return False
+    else:
+    	return False
 
 def reverserVowel(string):
     j = 0
