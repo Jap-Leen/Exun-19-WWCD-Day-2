@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 class edge{
-  
+    public:         //Solved bug
     int src;
     int dest;
     int weight;
