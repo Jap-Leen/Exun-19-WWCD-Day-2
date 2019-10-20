@@ -11,7 +11,7 @@ def spiralPrint(m, n, a) :
             print(a[i][n - 1], end = " ")   
         if ( k < m) : 
               
-            for i in range(n - 1, (l - 1), -1) : 
+            for i in range(n - 2, (l - 1), -1) : 
                 print(a[m - 1][i], end = " ") 
               
             m -= 1
