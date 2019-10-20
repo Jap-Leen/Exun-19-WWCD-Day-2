@@ -13,7 +13,7 @@ char function(char input[]) {
     m=a[j] ;
 
     for(i=1;input[i]!='\0';i++){
-        j=input[i];
+        j=input[i-1];                  //Solved bug in Line #16
         if(a[j]>m)
         { 
             ans=input[i];
