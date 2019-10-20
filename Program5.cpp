@@ -19,9 +19,9 @@ node* create_linked_list(void){
 	head = nodenew;
 	tail = head;
 	n--;
-	while(n--){
+	while(n-1==0){
     	node* newnode = new node();
-    	cout << "Enter "<< s - n << " node data ";
+    	cout << "Enter "<< s - n +1 << " node data ";
     	cin >> data;
     	tail -> next = newnode;
     	newnode -> data = data;
