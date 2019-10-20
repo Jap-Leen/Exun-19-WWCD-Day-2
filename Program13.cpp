@@ -12,6 +12,7 @@ void function(char input[]) {
                 input[k]=temp;
                 cws++;k--;
             }
+            cws=i+1;
         }
         i++;  
     } 
