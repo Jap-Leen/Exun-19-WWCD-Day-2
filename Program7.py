@@ -3,7 +3,7 @@
 def func(j): 
     count = 0
     for i in j: 
-        if type(i) == type(i):
+        if type(i) == type(j):
             count += 1
               
     return count 
