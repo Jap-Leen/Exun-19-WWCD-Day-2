@@ -6,7 +6,7 @@
 def findUnique( arr, n):
       
     res=0
-        for i in range(1,n):
+    for i in range(1,n):
         res = res ^ arr[i]
       
     return res
