@@ -5,6 +5,8 @@ def tribo(n):
         return 0;
         if n == 2:
         return 0;
+        if n==3:
+        return 0;
         return tribo(n - 1) + tribo(n - 2) + tribo(n - 3);
 
 
