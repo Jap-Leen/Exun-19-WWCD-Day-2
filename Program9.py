@@ -1,6 +1,6 @@
 # Given quadratic variables a,b and c, find the solution
 # Complexity: E
-
+from math import sqrt
 a = 1
 b = 5
 c = 6
