@@ -23,7 +23,7 @@ node* create_linked_list(void){
 	n--;
 	while(n--){
     	node* newnode = new node();
-    	cout << "Enter "<< s - n << " node data ";
+    	cout << "Enter "<< s - n + 1 << " node data ";
     	cin >> data;
     	tail -> next = newnode;
     	newnode -> data = data;
