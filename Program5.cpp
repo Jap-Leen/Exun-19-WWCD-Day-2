@@ -26,7 +26,7 @@ node* create_linked_list(void){
     	tail -> next = newnode;
     	newnode -> data = data;
     	tail = newnode;
-    	delete newnode;
+    	
 	}
 	tail -> next = NULL;
 	return head;
